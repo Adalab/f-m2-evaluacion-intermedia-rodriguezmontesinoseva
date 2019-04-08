@@ -1,0 +1,1 @@
+"use strict";function getRandomNumber(e){return Math.ceil(Math.random()*e)}console.log("> "+getRandomNumber(100));
