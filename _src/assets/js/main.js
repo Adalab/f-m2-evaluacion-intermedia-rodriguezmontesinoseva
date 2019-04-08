@@ -1,7 +1,5 @@
 'use strict';
 
-//console.log('>> Ready :)');
-
 // el juego genera un numero al azar entre 1 y 100. el jugador tiene que adivinarlo
 // pistas: num alto o bajo. Cuenta intentos. Hasta acierto
 
@@ -10,7 +8,7 @@
 // intentos en rojo, esquina sup dcha
 // Fin cuando acierta - actualizar contador de intentos cada vez que el usuario pruebe
 
-// me traigo objeto input
+// me traigo objeto input, botón, caja pistas
 
 const useNumberEl= document.querySelector('.useNumber');
 console.dir(useNumberEl);
@@ -21,7 +19,6 @@ let acc = 0;
 
 
 function startGame(){
-  //escribir use.number en consola
   const counterEl = document.querySelector('.counter');
   acc = acc +1;
   alert(acc);
